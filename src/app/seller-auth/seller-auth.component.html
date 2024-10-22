@@ -1,0 +1,13 @@
+<div class="seller-auth">
+    <div class="sign-up">
+        <h1>Seller sign up</h1>
+        <!-- <div class = "flex-container"> -->
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+            <input class="form-input" type="text" placeholder="Enter name" name="name" ngModel />
+            <input class="form-input" type="password"  placeholder="Enter password" name="password" ngModel/>
+            <input class="form-input" type="text" placeholder="Enter email" name="email" ngModel/> 
+            <button class="form-button">Sign-up</button>
+        </form>
+        <!-- </div> -->
+    </div>
+</div>
